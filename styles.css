@@ -1,0 +1,467 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flightformcont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.flightformcont-invisible {
+    display: none;
+}
+
+.aircraftformcont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.aircraftformcont-invisible {
+    display: none;
+}
+
+.airportformcont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.airportformcont-invisible {
+    display: none;
+}
+
+.airlineformcont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.airlineformcont-invisible {
+    display: none;
+}
+
+.passengerformcont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.passengerformcont-invisible {
+    display: none;
+}
+
+.staffformcont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.staffformcont-invisible {
+    display: none;
+}
+
+.fetch-form-cont-invisible {
+    display: none;
+}
+
+.fetch-form-cont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+.delete-form-cont-invisible {
+    display: none;
+}
+
+.delete-form-cont-visible {
+    width: 84.5%;
+    height: auto;
+    background-color: #848c8e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+    margin-top: 60px;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #dcf763;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d8ee78;
+}
+
+/* Navbar CSS */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-right: 10px;
+    margin: 5px;
+}
+
+.navbar-right h1 {
+    margin: 0;
+    margin-right: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar CSS */
+.navbar {
+    background-color: #435058;
+    color: #dcf763;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background-color: #dcf763;
+    margin-right: 10px;
+    margin: 5px;
+}
+
+.navbar-right h1 {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.left-nav {
+    position: fixed;
+    top: 0;
+    left: -150px; /* Initial position off-screen */
+    height: 100%;
+    width: 150px;
+    background-color: #435058;
+    color: #dcf763;
+    padding-top: 60px; /* Adjusted padding to account for the navbar height */
+    transition: left 0.3s ease;
+    z-index: 2;
+}
+
+.left-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-nav ul li {
+    margin-bottom: 15px;
+}
+
+.left-nav a {
+    text-decoration: none;
+    color: #dcf763;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* BEGIN: Add hover effect to left nav links */
+.left-nav li:hover {
+    background-color: #403f3f;
+}
+/* END: Add hover effect to left nav links */
+
+
+.left-nav-visible {
+    left: 0; /* Display the left nav when the class is added */
+}
+
+.hamburger-menu:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.3s ease; 
+}
+
+.hamburger-menu {
+    z-index: 3;
+}
+
+.left-nav, .left-nav-plus {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background-color: #435058;
+    color: #dcf763;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    z-index: 1;
+}
+
+.left-nav {
+    left: -150px;
+}
+
+.left-nav-plus {
+    left: -150px;
+}
+
+.left-nav ul, .left-nav-plus ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-nav ul li, .left-nav-plus ul li {
+    margin-bottom: 15px;
+}
+
+.left-nav-plus ul li:hover {
+    background-color: #403f3f;
+}
+
+.left-nav a, .left-nav-plus a {
+    text-decoration: none;
+    color: #dcf763;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.left-nav-visible, .left-nav-plus-visible {
+    left: 0;
+}
+
+#successMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#aircraftSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#airportSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#airlineSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#passengerSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#staffSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#deleteFlightSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#deleteAircraftSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#deleteAirportSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#deleteAirlineSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#deletePassengerSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+#deleteStaffSuccessMessage {
+    background-color: green;
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+
