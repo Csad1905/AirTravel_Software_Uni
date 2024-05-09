@@ -2,7 +2,6 @@
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Collect form data
-    $airlineId = $_POST["airlineId"];
     $airlineName = $_POST["airlineName"];
 
     // Database connection settings
@@ -20,8 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // SQL query to insert data into the database
-    $sql = "INSERT INTO airline (airline_id, airlineName)
-    VALUES ('$airlineId', '$airlineName')";
+    $sql = "INSERT INTO airline (airlineName)
+    VALUES ('$airlineName')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Airline added successfully!";
