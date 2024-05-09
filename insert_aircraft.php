@@ -6,6 +6,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $aircraftManufacturer = $_POST["aircraftManufacturer"];
     $aircraftCapacity = $_POST["aircraftCapacity"];
 
+    // Check if capacity is not negative
+    if ($aircraftCapacity < 0) {
+        echo "Error: Capacity cannot be negative.";
+        exit; // Stop execution if capacity is negative change
+    }
+
     // Database connection settings
     $servername = "185.114.98.6";
     $username = "csadleruoswebco_";
@@ -33,4 +39,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Close connection
     $conn->close();
 }
-?>
+
