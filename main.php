@@ -127,9 +127,6 @@ if(!$_SESSION['user_data']) {
 
     <div class="airlineformcont-invisible" id="airlineformcont">
         <form id="airlineForm" action="insert_airline.php" method="post">
-            <label for="airlineId">Airline ID:</label>
-            <input type="text" id="airlineId" name="airlineId" required>
-    
             <label for="airlineName">Airline Name:</label>
             <input type="text" id="airlineName" name="airlineName" required>
     
